@@ -60,5 +60,6 @@ class DnfTreasurePlugin(Star):
         self._save_db()
         result = [f"💎 DNF野猪秘宝 - 精度调试记录", f"👤 技师：{user_name}", f"🛡️ 装备：侵染万物的灾厄之心", f"--------------------------"]
         result.extend(steps_log)
-        result.append(f"--------------------------\n📊 最终结果：{hands} 手点满！\n💻 技术支持：qingcai")
+        result.append(f"--------------------------\n📊 最终结果：{hands} 手点满！")
+
         yield event.plain_result("\n".join(result))
