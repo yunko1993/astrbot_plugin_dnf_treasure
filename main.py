@@ -50,7 +50,7 @@ class DnfTreasurePlugin(Star):
             
             if progress + add >= next_cp:
                 actual_add = next_cp - progress
-                progress = next_checkpoint = next_cp
+                progress = next_cp
                 status = f"{desc} (🚨 阶段锁定)" if next_cp < 100 else desc
             else:
                 actual_add, progress, status = add, progress + add, desc
@@ -58,8 +58,8 @@ class DnfTreasurePlugin(Star):
         
         self.data[user_id] = today
         self._save_db()
-        result = [f"💎 DNF野猪秘宝 - 精度调试记录", f"👤 技师：{user_name}", f"🛡️ 装备：侵染万物的灾厄之心", f"--------------------------"]
+
+        result = [f"💎 DNF野猪秘宝 - 精度调试记录", f"👤 技师：{user_name}", f"🛡️ 装备：侵染万物的灾厄之心", f"📌 说明：每逢 25/50/75% 进度必停", f"--------------------------"]
         result.extend(steps_log)
         result.append(f"--------------------------\n📊 最终结果：{hands} 手点满！")
-
         yield event.plain_result("\n".join(result))
