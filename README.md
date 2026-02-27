@@ -15,7 +15,7 @@
 
 ### 方式 A：通过 WebUI 仪表盘安装 (推荐)
 1. 进入 AstrBot 仪表盘 -> **插件管理** -> **从 GitHub 安装**。
-2. 粘贴本仓库链接：`https://github.com/yunko9319/astrbot_plugin_dnf_treasure`
+2. 粘贴本仓库链接：`https://github.com/yunko1993/astrbot_plugin_dnf_treasure`
 3. 点击安装。
 
 ### 方式 B：手动在服务器安装
@@ -25,7 +25,7 @@
    ```
 2. **克隆仓库**:
    ```bash
-   git clone https://github.com/yunko9319/astrbot_plugin_dnf_treasure.git
+   git clone https://github.com/yunko1993/astrbot_plugin_dnf_treasure.git
    ```
 3. **重启 AstrBot 服务**:
    ```bash
