@@ -2,4 +2,5 @@ name: dnf_treasure_sim
 desc: "DNF野猪秘宝（太初左槽）精度调试模拟器，完美复刻阶段锁定机制。由 qingcai 开发。"
 author: "qingcai"
 version: "1.0.0"
-repo: "https://github.com/yunko9319/astrbot_plugin_dnf_treasure"
+
+repo: "https://github.com/yunko1993/astrbot_plugin_dnf_treasure"
