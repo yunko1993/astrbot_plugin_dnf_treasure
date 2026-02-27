@@ -1,6 +1,7 @@
-name: dnf_treasure_sim
-desc: "DNF野猪秘宝（太初左槽）精度调试模拟器，完美复刻阶段锁定机制。由 qingcai 开发。"
+name: astrbot_plugin_dnf_treasure
+desc: "复刻 DNF 115 版本顶级辅助装备 “侵染万物的灾厄之心” 的精度调试过程。专为 DNF 玩家群设计，增加群内互动趣味性。"
 author: "qingcai"
 version: "1.0.0"
 
 repo: "https://github.com/yunko1993/astrbot_plugin_dnf_treasure"
+
